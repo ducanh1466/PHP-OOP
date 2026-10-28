@@ -1,0 +1,10 @@
+<?php $_shouldextend[1]=1; ?>
+<?php $this->startSection('title'); ?>
+ Trang mẫu
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+ <h1>Trang mẫu để kiểm tra view</h1>
+
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('app'); } ?>

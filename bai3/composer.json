@@ -1,0 +1,10 @@
+{
+    "name": "gigabyte/bai3",
+    "version": "1.0.0",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    }
+}
